@@ -76,12 +76,7 @@ th, td {
   padding: 0.5rem;
 }
 
-.works-track img {
-  width: 200px;
-  height: 150px;
-  object-fit: cover;
-}
-<!-- tuika -->
+
 .scroll-gallery {
   width: 100%;
   overflow: hidden;
