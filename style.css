@@ -81,3 +81,34 @@ th, td {
   height: 150px;
   object-fit: cover;
 }
+<!-- tuika -->
+.scroll-gallery {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scroll-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 70s linear infinite;
+}
+
+.scroll-gallery img {
+  height: 200px; /* 高さは自由に調整可 */
+  margin-right: 0px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* ホバー時にアニメーション停止（任意） */
+.scroll-gallery:hover .scroll-track {
+  animation-play-state: paused;
+}
