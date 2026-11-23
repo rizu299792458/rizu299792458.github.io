@@ -30,14 +30,6 @@ h1, h2, h3 {
   border-bottom: dashed 0.1em var(--theme-color);
 }
 
-/ --------------------
-        リンク
--------------------- /
-
-a {
-  color: var(--theme-color);
-  text-decoration: none;
-}
 
 / --------------------
         リスト
@@ -101,9 +93,4 @@ th, td {
   100% {
     transform: translateX(-50%);
   }
-}
-
-/* ホバー時にアニメーション停止（任意） */
-.scroll-gallery:hover .scroll-track {
-  animation-play-state: paused;
 }
