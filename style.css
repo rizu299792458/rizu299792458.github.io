@@ -71,7 +71,7 @@ th, td {
 header{
         display:flex
         width:100%
-        heigft:100px;
+        heigft:500px;
         background-color:LightSeaGreen;
         align-items:center;
 }
