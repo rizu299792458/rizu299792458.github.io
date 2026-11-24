@@ -68,6 +68,13 @@ th, td {
   padding: 0.5rem;
 }
 
+header{
+        display:flex
+        width:100%
+        heigft:100px;
+        background-color:LightSeaGreen;
+        align-items:center;
+}
 
 .scroll-gallery {
   width: 100%;
